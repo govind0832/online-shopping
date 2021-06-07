@@ -11,9 +11,9 @@
    ">
 
 	<context:component-scan
-		base-package="net.go.onlineshopping.controller" />
+		base-package="net.go.onlineshopping" />
 	<context:component-scan
-		base-package="net.go.shoppingbackend.daoimpl" />
+		base-package="net.go.shoppingbackend" />
 
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
